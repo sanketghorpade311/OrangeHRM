@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 public class Attachments extends Login {
 
 	@AfterMethod
-	public void DeleteAttachment() {
+	public void Attachment() {
 		WebDriver driver = Login.driver;
 
 		WebElement username2 = driver.findElement(By.xpath(" (//a[normalize-space()='Immigration'])[1]"));
@@ -23,7 +23,7 @@ public class Attachments extends Login {
 		System.out.println("Add button clicked");
 
 		WebElement Upload = driver.findElement(By.xpath("(//input[@type='file'])[1]"));
-		Upload.sendKeys("C:\\Users\\Sanket\\Desktop\\4334.png");
+		Upload.sendKeys("C:\\Users\\Sanket\\eclipse-workspace\\OraneHRM\\test.png");
 		System.out.println("Document Uploaded");
 
 		WebElement Comm = driver.findElement(By.xpath("//textarea[@placeholder='Type comment here']"));
