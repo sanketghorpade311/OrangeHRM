@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-29T11:27:27Z" name="Default suite" finished-at="2024-02-29T11:27:45Z" duration-ms="18713">
+    <groups>
+    </groups>
+    <test started-at="2024-02-29T11:27:27Z" name="Default test" finished-at="2024-02-29T11:27:45Z" duration-ms="18713">
+      <class name="Testcases.OraneHRM.Immigration">
+        <test-method signature="LoginTest()[pri:0, instance:Testcases.OraneHRM.Immigration@2b40ff9c]" started-at="2024-02-29T16:57:27Z" name="LoginTest" finished-at="2024-02-29T16:57:42Z" duration-ms="15626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="immigrationTest()[pri:0, instance:Testcases.OraneHRM.Immigration@2b40ff9c]" started-at="2024-02-29T16:57:42Z" name="immigrationTest" finished-at="2024-02-29T16:57:45Z" duration-ms="3066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- immigrationTest -->
+      </class> <!-- Testcases.OraneHRM.Immigration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
