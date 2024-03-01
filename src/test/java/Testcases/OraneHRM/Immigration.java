@@ -27,6 +27,7 @@ public class Immigration extends Login {
 		WebElement number1 = driver.findElement(By.xpath(" (//input[@class='oxd-input oxd-input--active'])[2]"));
 		number1.click();
 		number1.sendKeys("123456");
+
 		System.out.println("Number Button Clicked");
 
 		WebElement issdate = driver.findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]"));
